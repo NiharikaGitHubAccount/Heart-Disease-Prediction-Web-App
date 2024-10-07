@@ -97,10 +97,6 @@ Pygments==2.15.1
 pylint==2.16.2
 pylint-venv==3.0.3
 pyls-spyder==0.4.0
-pyobjc-core==10.1
-pyobjc-framework-Cocoa==10.1
-pyobjc-framework-CoreServices==10.1
-pyobjc-framework-FSEvents==10.1
 PyQt5==5.15.10
 PyQt5-sip==12.13.0
 PyQtWebEngine==5.15.6
@@ -127,7 +123,6 @@ rpds-py==0.10.6
 Rtree==1.0.1
 scikit-learn==1.5.1
 scipy==1.13.1
-setuptools==75.1.0
 sip==6.7.12
 six==1.16.0
 smmap==5.0.1
