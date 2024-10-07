@@ -3,6 +3,8 @@ import pickle
 import streamlit as st
 from PIL import Image
 import base64
+from streamlit_option_menu import option_menu
+
 
 # Function to encode the image for CSS background use
 def get_base64_encoded_image(image_path):
