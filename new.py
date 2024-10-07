@@ -12,7 +12,7 @@ def get_base64_encoded_image(image_path):
         return base64.b64encode(img_file.read()).decode()
 
 # Load the saved model
-loaded_model = pickle.load(open('/Users/niharika/Downloads/miniproject files/heart_disease_model.sav', 'rb'))
+loaded_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
 # Create a function for Prediction
 def heart_disease_prediction(input_data):
@@ -26,7 +26,7 @@ def main():
     st.title('Heart Disease Prediction Web App')
 
     # CSS for background image and styling
-    img_base64 = get_base64_encoded_image('Users/niharika/Downloads/miniproject files/heartpic.png')
+    img_base64 = get_base64_encoded_image('heartpic.png')
     st.markdown(
         f"""
         <style>
